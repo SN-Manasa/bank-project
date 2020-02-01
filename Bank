@@ -1,12 +1,20 @@
 
 public class Bank {
+private double balance;
+private double minimum amount;
 
-public void deposit{
-Total amount = balance + amount added 
+public bank()
+{
+balance = 1000;
+minimum amount = 2000;
 }
 
-public void withdraw{
-Total amount = balance - amount taken
+public void deposit(amount){
+balance = balance + amount; 
+}
+
+public void withdraw(amount){
+balance = balance - amount;
 }
 
 public class user
@@ -16,7 +24,7 @@ public static void main(String [] args)
 Bank b = new Bank();
 b.deposit();
 b.withdraw();
-system.out.println("Total amount after money deposited by user");
-system.out.println("Total amount after money withdrawn by user");
+system.out.println("balance after money deposited by user");
+system.out.println("balance after money withdrawn by user");
 }
 }
