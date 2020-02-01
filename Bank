@@ -1,1 +1,22 @@
 
+public class Bank {
+
+public void deposit{
+Total amount = balance + amount added 
+}
+
+public void withdraw{
+Total amount = balance - amount taken
+}
+
+public class user
+{
+public static void main(String [] args) 
+{ 
+Bank b = new Bank();
+b.deposit();
+b.withdraw();
+system.out.println("Total amount after money deposited by user");
+system.out.println("Total amount after money withdrawn by user");
+}
+}
